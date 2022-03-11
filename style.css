@@ -1,0 +1,91 @@
+h1{
+	color: hotpink;
+	font-size: 50px;
+}
+
+img{
+	width: 500px;
+}
+
+#banner{
+	width: 100%;
+}
+
+body{
+	font-family: 'Source Code Pro', monospace;
+	text-align: center ;
+	background-color: rgb(131, 242, 233);
+}
+
+h2{
+	color: indianred;
+	font-size: 40px;
+	letter-spacing: 10px;
+}
+
+li{
+	list-style-type: none;
+	font-size: 125%;
+}
+
+.Trevor{
+	width: 300px;
+	height: 200px;
+	border-radius: 20px;
+	border: 8px orange solid;
+	border-top: 8px palevioletred solid; 
+	border-right: 8px orange solid;
+	border-bottom:  8px deepink solid; 
+	border-left:  8px limegreen solid;
+}
+
+.cards:hover{
+	background-color: darkseagreen;
+	padding: 20px;
+	opacity: 0.8;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+p{
+	font-weight: bold;
+}
+
+#box{
+	background-color: springgreen;
+	padding: 30px;
+	border: 10px black solid;
+}
+
+#text{
+	font-size: 100px;
+	margin: 20px;
+	object-fit: cover;
+}
+
+#topbanner{
+	display: flex;
+}
+
+#topbanner > h1, #topbanner > h2{
+	position: absolute;
+}
+
+#topbanner>h2{
+	transform: translate(50px,100px);
+	background-color: royalblue;
+	border: 5px solid black;
+	padding: 20px;
+	border-radius: 20px;
+	padding: 20px;
+	color: lawngreen;
+}
+
+.row{
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 50px;
+}
